@@ -1,0 +1,78 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+/* Styling for map legend */
+.legend {
+  background: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.legend h3 {
+  color: rgb(29, 29, 29);
+  border-bottom: 1px solid rgb(214, 214, 214);
+}
+
+.legend li {
+  list-style: none;
+  font-size: 12px; 
+  color: rgb(29, 29, 29);
+
+}
+
+.colorBlock {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  margin: 0px 10px 5px 0px;
+  vertical-align: middle;
+}
+
+
+/* Styling for map popup cards */
+
+.popupCard h2 {
+  margin: 0px;
+  padding: 0px;
+}
+
+.popupDate {
+  margin: 0px !important;
+  padding: 0px;
+  font-size: 11px; 
+  color: grey;
+}
+
+.popupCard ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.popupCard li {
+  padding: 2px 0px;
+}
+
+.popupCard a {
+  padding: 5px 7px;
+  border-radius: 7px;
+  background-color: #009596;
+  color: white;
+  text-decoration: none;  
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);  
+}
+
+.popupCard a:hover {
+  background-color: #005F60;  
+}
